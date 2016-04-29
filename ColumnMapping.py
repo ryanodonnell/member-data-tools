@@ -15,10 +15,10 @@ import pandas as pd # import pandas library
 
 # Read mapping table and original file using pandas 
 
-ColTable = pd.read_excel('401Cols.xlsx',header=None)
-MemTypes = pd.read_excel('401Mems.xlsx',header=None)
+ColTable = pd.read_excel('FilePath.xlsx',header=None)
+MemTypes = pd.read_excel('FilePath.xlsx',header=None)
 
-OrigFile = pd.read_excel('401File.xlsx')
+OrigFile = pd.read_excel('FilePath.xlsx')
 
 
   
