@@ -5,6 +5,11 @@ Included are three basic examples for working with the MAPP API:
 - Status - tells you the status of a particular job.
 - Jobs - lists back any open or closed jobs you have submitted via the API.
 
+## Import
+
+rebus - helps with base64 encoding and decoding.
+pysftp - handles SFTP.
+
 ## Security / Passwords / Tokens
 
 Storing passwords, credentials, and tokens directly in code is never advisable. 
@@ -15,3 +20,5 @@ helper function to retrieve them at runtime. Four great options of varying compl
 2. Store them as environment variables for your user.
 3. Store them in a NoSQL database like MongoDB or DynamoDB for lookup.
 4. Use a discovery service like CONSUL (consul.io) that can provide a datacenter-wide key-value store for retrieval.
+
+
