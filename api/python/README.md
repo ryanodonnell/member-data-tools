@@ -1,14 +1,14 @@
 # Python Examples
 
-Included are three basic examples for working with the MAPP API:
-- Upload - loads a new file into MAPP and recieves your FileID for the job.
-- Status - tells you the status of a particular job.
-- Jobs - lists back any open or closed jobs you have submitted via the API.
+Included are three basic examples for working with the three MAPP API methods:
+- /upload - loads a new file into MAPP and recieves your FileID for the job.
+- /status - tells you the status of a particular job.
+- /jobs - lists back any open or closed jobs you have submitted via the API.
 
 ## Import
 
-rebus - helps with base64 encoding and decoding.
-pysftp - handles SFTP.
+- rebus - helps with base64 encoding and decoding.
+- pysftp - handles SFTP.
 
 ## Security / Passwords / Tokens
 
