@@ -35,7 +35,7 @@ os.chdir('_/PATH/TO/FILE/_')
 seiuhost = 'localsftp.seiu.org'
 seiuusername = '_MYUSERNAME_'
 seiupassword = '_MYPASSWORD_'
-seiuport = '40711'
+seiuport = '*****'
 with pysftp.Connection(seiuhost, username=seiuusername, password=seiupassword, port=seiuport) as sftp:
     sftp.chdir('/incoming')
     sftp.put(filename)
