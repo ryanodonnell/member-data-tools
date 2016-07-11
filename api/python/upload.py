@@ -1,6 +1,6 @@
 #!/bin/python
 import requests
-import rebus
+import base64
 import pysftp
 import os
 
@@ -18,10 +18,11 @@ The script does not do a few key things you should implement:
 '''
 
 # Your filename
-filename = 'myfile.txt'
+file = 'myfile.txt'
+filename = file.rstrip()
 
 # Create the base64 of the filename
-filenameenc = rebus.urlsafe_b64encode(filename)
+filenameenc = base64.b64encode(filename)
 filebase64 = filenameenc.rstrip()
 
 # Print these just for feedback to developer
